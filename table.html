@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="MyStyle.css">
+		<title>Table</title>
+		<link rel="icon" type="image/x-icon" href="favicon.png">
+		<meta charset="UTF-8">
+        <meta name="description" content="About the Author">
+        <meta name="keywords" content="Website, Introduction, Author">
+        <meta name="author" content="Joshua Comstock">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+<body>
+	<ul id="Nul">
+		<li id="home-nav"><a href="PythonIntro.html">Home</a></li>
+		<li id="table-nav"><a href="table.html">Table</a></li>
+		<li id="contact-nav"><a href="#contact">Contact</a></li>
+		<li id="about-nav"><a href="about.html">About</a></li>
+	</ul>
+	<h1 id="H1">Guide for Python Syntax</h1>
+	<table>
+  <tr>
+    <th>Keyword</th>
+    <th>Description</th>
+    <th>Code Example</th>
+  </tr>
+  <tr>
+    <td>True, False</td>
+    <td>Boolean Data Types</td>
+    <td>False == (1 > 2), True == (2 > 1)</td>
+  </tr>
+  <tr>
+    <td>print(" ")</td>
+    <td>Prints argument in parentheses onto the console</td>
+    <td>print("hello world")</td>
+  </tr>
+  <tr>
+    <td>if, elif, else</td>
+    <td>Conditional program execution: program starts with “if” branch, tries the “elif” branches, and finishes with “else” branch (until one branch evaluates to True).</td>
+    <td><pre class="tbl1">
+x = int(input("your value: "))
+if x > 3: print("Big")
+elif x == 3: print("Medium")
+else: print("Small")
+
+	</pre></td>
+  </tr>
+  <tr>
+    <td>lambda</td>
+    <td>Function with no name (anonymous function)</td>
+    <td>(lambda x: x + 3)(3) # returns 6</td>
+  </tr>
+  <tr>
+    <td>def()</td>
+    <td>Used to create a custom function</td>
+    <td><pre class="tbl1">
+def My_Function(x):  # function name
+	print(x**2) # Prints the square root of the number "x"
+My_Function(5)  # Prints 25 in the console
+	</pre></td>
+  </tr>
+  <tr>
+    <td>return</td>
+    <td>Terminates execution of the function and passes the flow of execution to the caller. An optional value after the return keyword specifies the function result.</td>
+    <td><pre class="tbl2">
+def incrementor(x):
+	return x + 1
+incrementor(4) # returns 5
+	</pre></td>
+  </tr>
+  <tr>
+    <td>in</td>
+    <td>Checks whether element is in sequence</td>
+    <td>42 in [2, 39, 42] # True</td>
+  </tr>
+</table>
+</body>
+
+</html>
