@@ -68,7 +68,7 @@ ul.a {
 	padding: 10px;
 	float: left;
 }
-#name-nav {
+#table-nav {
 	display: block;
 	padding: 10px;
 	float: left;
@@ -96,4 +96,29 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
   
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 25px;
+}
+td, th {
+  border: 1px solid blue;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+.tbl1{
+	font-family: arial, sans-serif;
+	background-color: lightblue;
+
+}
+.tbl2{
+	font-family: arial, sans-serif;
+	background-color: lightyellow;
+	
 }
