@@ -69,12 +69,12 @@ ul.a {
 	float: left;
 }
 #table-nav {
-	display: block;
+	display: inline;
 	padding: 10px;
 	float: left;
 }
 #contact-nav {
-	display: block;
+	display: inline;
 	padding: 10px;
 	float: left;
 }
